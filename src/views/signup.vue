@@ -1,16 +1,15 @@
 <template>
-  <div>
-   <router-view/>
-  </div>
+    <div>
+
+    </div>
 </template>
 
 <script>
 export default {
-   components:{
-   
-   }
+   name:'signup'
 }
 </script>
+
 <style>
 
 </style>
