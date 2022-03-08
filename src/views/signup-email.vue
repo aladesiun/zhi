@@ -44,7 +44,7 @@
                     </div>            
                 </div>
                 <div class="text-center w-full mb-9">
-                    <p class="text-btn text-darkTxt"><router-link to=""><i class="fa-solid fa-left-long mr-2"></i>Back</router-link></p>
+                    <p class="text-btn text-darkTxt"><router-link to="/signup"><i class="fa-solid fa-left-long mr-2"></i>Back</router-link></p>
                 </div>
                  <div class="text-center flex justify-center items-center mb-10">
                     <p class="text-[17px] text-light text-darkTxt">Have an account?<router-link to="/login" class="text-btn font-semibold ml-[3px]">Log in</router-link></p>
