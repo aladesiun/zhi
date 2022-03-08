@@ -9,7 +9,7 @@
                     <p class="font-light text-[27px]">Forgot your password?</p>
                 </div>
                 <div class="lg:w-[354px] md:w-[354px] sm:w-[354px] w-[90%] mx-auto mb-10">
-                  <label for="email" class="cursor-pointer mb-4 font-semibold">Email</label>
+                  <label for="email" class="cursor-pointer mb-4 font-semibold  text-darkTxt">Email</label>
                  <input type="email" id="email" class="h-[48px] w-full mt-[11px] ease-in-out duration-200 rounded-sm border-bord text-inp focus:text-black"/>
                 </div>
                 <div class="flex flex-col w-full justify-center items-center mb-10">
@@ -20,10 +20,10 @@
                     </div>            
                 </div>
                 <div class="text-center flex justify-center items-center mb-10">
-                    <p class="text-[17px] text-light text-darkTxt">Have an account?<router-link to="" class="text-btn font-semibold ml-[3px]">Log in</router-link></p>
+                    <p class="text-[17px] text-light text-darkTxt">Have an account?<router-link to="/login" class="text-btn font-semibold ml-[3px]">Log in</router-link></p>
                 </div>
               <div class="text-center flex justify-center items-center mb-6">
-                    <p class="text-[17px] text-light text-darkTxt">Don't have an account?<router-link to="" class="text-btn font-semibold ml-[3px]">Sign up</router-link></p>
+                    <p class="text-[17px] text-light text-darkTxt">Don't have an account?<router-link to="/signup" class="text-btn font-semibold ml-[3px]">Sign up</router-link></p>
                 </div>
            </div>
      </div>

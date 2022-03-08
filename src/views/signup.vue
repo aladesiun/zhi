@@ -26,7 +26,7 @@
                         </div>
                 </div>
                 <div class="text-center flex justify-center items-center mb-6">
-                    <p class="text-[17px] text-light text-darkTxt">Have an account?<router-link to="" class="text-btn font-semibold ml-[3px]">Log in</router-link></p>
+                    <p class="text-[17px] text-light text-darkTxt">Have an account?<router-link to="/login" class="text-btn font-semibold ml-[3px]">Log in</router-link></p>
                 </div>      
            </div>
       </div>

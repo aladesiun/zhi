@@ -6,7 +6,7 @@
                     <img alt="IMG" src="../assets/Images/zhi-img.jpg" class="h-[30px]"/>
                 </div>
                 <div class="w-full text-center mb-5">
-                    <p class="font-light text-[27px]">Log in to your account</p>
+                    <p class="font-light text-[27px]">Join Zhivago</p>
                 </div>
                 <div class="lg:w-[354px] md:w-[354px] sm:w-[354px] w-[90%] mx-auto mb-6">
                    <label for="email" class="cursor-pointer mb-4 font-semibold text-darkTxt">Email</label>
