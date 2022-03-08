@@ -32,6 +32,16 @@
        color: #fff!important;
        background: #506CF0;
       }
+      .sb{
+        /* this will hide the scrollbar in mozilla based browsers */
+        overflow: -moz-scrollbars-none;
+        scrollbar-width: none;
+        scroll-behavior: smooth;
+      }
+      .sb::-webkit-scrollbar{
+        width: 0 !important;
+        display: none; 
+      }
     </style>
     <!---------------TAILWIND CSS---------->
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.3.4/dist/flowbite.min.css" />
@@ -57,7 +67,9 @@
               lite:'#d3d3d3',
               liteGray:'#f9f9f9',
               bgInput:'#edf2f7',
-              dropDown:'#80808033'
+              dropDown:'#80808033',
+              search:'#8a94a6',
+              line:'#ededed'
             },
           }
         }
