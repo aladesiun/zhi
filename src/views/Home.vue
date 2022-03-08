@@ -3,9 +3,9 @@
     <Navheader/>
     <side-bar/>
     <div>
-      <div class="home-content xl:max-w-screen-xl mx-auto mt-0 ml-[456px]" >
+      <div class="home-content xl:max-w-screen-xl mx-auto mt-0 ml-2 lg:ml-[456px] pt-[82px]" >
         <div class="grid grid-cols-3 mx-auto">
-          <div class="feed-content sb col-span-2 w-full h-[100vh] overflow-y-scroll overscroll-none pt-[82px]">
+          <div class="feed-content sb col-span-2 w-full h-[100vh] overflow-y-scroll overscroll-none ">
             <div class="content-head flex space-between ">
               <p class="text-2xl text-semibold">Home</p>
               <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider" class="text-black 
@@ -55,10 +55,10 @@
                   </div>
                 </div>
                 <div class="flex justify-start items-center">
-                  <div class="rounded-[50%] h-7 w-7 cursor-pointer bg-black mr-2" >
+                  <div class="rounded-[50%] h-6 w-6 cursor-pointer bg-black mr-2" >
                     <img  alt="IMG" src="../views/../assets/Images/zhi-ing.jpg" class="rounded-[50%]">
                   </div>
-                  <p class="text-inp">Liked by Klajdi</p>
+                  <p class="text-inp text-xs">Liked by Klajdi</p>
                 </div>
               </div>
 
@@ -67,8 +67,14 @@
             </div>
             
           </div>
-          <div class="notif">
-            notif
+          <div class="notif ml-5">
+            <div>
+              <button class="bg-btn px-10 py-2 text-white  w-30 font-bold text-lg rounded">New Post</button>
+              <div class="bg-white">
+                <p class="text-sm font-bold">Get started</p>
+                <div class="list"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

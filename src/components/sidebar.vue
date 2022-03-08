@@ -1,7 +1,7 @@
 <template>
     <div>
-         <div class="sidebar fixed left-0">
-            <div class="w-[430px] h-[700px]  pt-11 border border-red-800 fixed left-0 top-[65px] flex justify-end items-center ">
+         <div class="sidebar  bg-homebg z-40 hidden lg:block">
+            <div class="w-auto lg:w-[430px] h-[700px]  pt-11 fixed md:left-[10px] lg:left-2 top-[65px] bottom-0 flex justify-end items-center bg-homebg">
               <div class="w-[287px] h-[700px]">
                 <router-link to="">
                   <div class="mb-10 active text-inp hover:text-black ease-in-out duration-200">
@@ -19,8 +19,8 @@
                       </div>
                     </div>
                     <div class="dp-body hidden w-[300px] h-[86px]  flex flex-col">
-                      <p class="text-inp text-lg font-light mb-3 mt-2"><router-link to=""><b class="text-sm">👋</b> Start here.</router-link></p>
-                      <p class="text-inp text-lg font-light"><router-link to=""><b class="text-sm">😏</b>Introduce yourself</router-link></p>
+                      <p class="text-inp text-[16px] font-light mb-3 mt-2"><router-link to=""><b class="text-sm">👋</b> Start here.</router-link></p>
+                      <p class="text-inp text-[16px] font-light"><router-link to=""><b class="text-sm">😏</b>Introduce yourself</router-link></p>
                     </div>
                   </div>
 
@@ -34,14 +34,14 @@
                       </div>
                     </div>
                     <div class=" dp_body hidden w-[300px] h-auto flex flex-col">
-                      <p class="text-inp text-lg font-light mb-3 mt-2"><router-link to=""><b class="text-sm">👋</b>Las Vegas Singles</router-link></p>
-                      <p class="text-inp text-lg font-light  mb-3"><router-link to=""><b class="text-sm">😏</b>No mint Mark</router-link></p>
-                      <p class="text-inp text-lg font-light  mb-3"><router-link to=""><b class="text-sm">😏</b>Zhivago Announcement E...</router-link></p>
-                      <p class="text-inp text-lg font-light  mb-3"><router-link to=""><b class="text-sm">😏</b>Buffalo Nickel</router-link></p>
-                      <p class="text-inp text-lg font-light  mb-3"><router-link to=""><b class="text-sm">😏</b>Legal Class Action</router-link></p>
-                      <p class="text-inp text-lg font-light  mb-3"><router-link to=""><b class="text-sm">😘</b>Zhivago XXX</router-link></p>
-                      <p class="text-inp text-lg font-light  mb-3"><router-link to=""><b class="text-sm">😘</b>Over 50 </router-link></p>
-                      <p class="text-inp text-lg font-light  mb-3"><router-link to=""><b class="text-sm">😘</b>Same Sex Sex</router-link></p>
+                      <p class="text-inp text-[16px] font-light mb-3 mt-2"><router-link to=""><b class="text-sm">👋</b>Las Vegas Singles</router-link></p>
+                      <p class="text-inp text-[16px] font-light  mb-3"><router-link to=""><b class="text-sm">😏</b>No mint Mark</router-link></p>
+                      <p class="text-inp text-[16px] font-light  mb-3"><router-link to=""><b class="text-sm">😏</b>Zhivago Announcement E...</router-link></p>
+                      <p class="text-inp text-[16px] font-light  mb-3"><router-link to=""><b class="text-sm">😏</b>Buffalo Nickel</router-link></p>
+                      <p class="text-inp text-[16px] font-light  mb-3"><router-link to=""><b class="text-sm">😏</b>Legal Class Action</router-link></p>
+                      <p class="text-inp text-[16px] font-light  mb-3"><router-link to=""><b class="text-sm">😘</b>Zhivago XXX</router-link></p>
+                      <p class="text-inp text-[16px] font-light  mb-3"><router-link to=""><b class="text-sm">😘</b>Over 50 </router-link></p>
+                      <p class="text-inp text-[16px] font-light  mb-3"><router-link to=""><b class="text-sm">😘</b>Same Sex Sex</router-link></p>
                     </div>
                   </div>
                     
