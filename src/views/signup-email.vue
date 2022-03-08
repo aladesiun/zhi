@@ -21,12 +21,12 @@
                    <input type="password" id="pwd" class="h-[47px] w-full mt-[11px] ease-in-out duration-200 rounded-sm border-bord text-inp focus:text-black"/>
                 </div>
                 <div class="mb-7 flex justify-center items-center text-center">
-                    <div class="flex justify-start items-center lg:w-[347px] md:w-[347px] sm:w-[347px] w-[80%]  mx-auto">
+                    <div class="flex justify-start  lg:w-[347px] md:w-[347px] sm:w-[347px] w-[80%]  mx-auto">
                       <input id="checkbox-all" type="checkbox" class=" mr-1 cursor-pointer w-4 h-4 text-blue-600 bg-white rounded-sm focus:rounded-sm border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2">
                       <p class="text-base">i accept the <router-link to="" class="text-btn font-semibold">terms of services </router-link> & <router-link to="" class="text-btn font-semibold"> privacy policy</router-link></p>
                     </div>  
                 </div>
-                <div class="">
+                <!-- <div class="">
                    <div class="border border-lite h-[74px] w-[300px] bg-liteGray mx-auto">
                       <div class="block">
                          <p class="txt-">verification challenge expired. Check the <br> checkbox again.</p>
@@ -35,7 +35,7 @@
 
                       </div>
                    </div>
-                </div>
+                </div> -->
                 <div class="flex flex-col w-full justify-center items-center mb-7">
                   <div class="mb-6 w-[90%] text-center">
                         <router-link to="" class=" lg:w-max  md:w-max sm:w-max  w-full flex justify-center items-center mx-auto">

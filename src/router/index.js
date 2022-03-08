@@ -1,12 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import login from '../views/login.vue'
 import signup from '../views/signup.vue'
+import home from '../views/Home'
 import forgotPwd from '../views/forgot-pwd.vue'
 import loginEmail from '../views/login-email.vue'
 import signupEmail from '../views/signup-email.vue'
 
 
 const routes = [
+  {
+    path: '/',
+    name: 'home',
+    component: home
+  },
   {
     path: '/login',
     name: 'login',
