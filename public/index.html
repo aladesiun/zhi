@@ -4,10 +4,35 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="../src/assets/css/main.css">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Nunito:wght@600&family=Prompt:wght@300;500&family=Roboto:wght@400;500;700&family=Satisfy&family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Nunito:wght@600&family=Prompt:wght@300;500&family=Roboto:wght@400;500;700&family=Satisfy&family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              btn:'#506cf0',
+              btnBorder:'#506cf0',
+              btnHover:'#445ccc',
+              darkTxt:'#3b3b3b',
+              darkGray:'#949494'
+            },
+          }
+        }
+      }
+    </script>
   </head>
-  <body>
+  <body class="" style=" font-family: 'Source Sans Pro'!important; ">
+   
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
