@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="eng">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,12 +15,29 @@
     <!------------------CSS------------>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Nunito:wght@600&family=Prompt:wght@300;500&family=Roboto:wght@400;500;700&family=Satisfy&family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+      .show{
+        display: block!important;
+      }
+      .rotate{
+        transform: rotate(90deg);
+      }
+      .active{
+        width:270px;
+       height: 35px;
+       display: flex;
+       justify-content: start;
+       align-items: center;
+       border-radius: 5px;
+       padding-left: 18px;
+       color: #fff!important;
+       background: #506CF0;
+      }
     </style>
     <!---------------TAILWIND CSS---------->
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.3.4/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.3.4/dist/flowbite.min.css" />
     <script src="https://unpkg.com/flowbite@1.3.4/dist/flowbite.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.3.4/dist/flowbite.min.css" />
     <script>
       tailwind.config = {
         theme: {
@@ -38,19 +55,38 @@
               bord:'#e9e9e9',
               inp:'#6e7a91',
               lite:'#d3d3d3',
-              liteGray:'#f9f9f9'
+              liteGray:'#f9f9f9',
+              bgInput:'#edf2f7',
+              dropDown:'#80808033'
             },
           }
         }
       }
     </script>
   </head>
-  <body style=" font-family: 'Source Sans Pro'!important; ">
+  <body style="font-family:'Source Sans Pro'!important;">
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>
+      $((e)=>{
+        $('.dp').click((e)=>{
+        $('.dp-body').toggleClass('show');
+        $('.ic').toggleClass('rotate');
+        });
+         $('.d_p').click((e)=>{
+           $('.dp_body').toggleClass('show');
+           $('.i_c').toggleClass('rotate');
+         });
+         $('.d__p').click((e)=>{
+           $('.dp__body').toggleClass('show');
+           $('.i__c').toggleClass('rotate');
+         });
+      });
+    </script>
     <script src="https://unpkg.com/flowbite@1.3.4/dist/flowbite.js"></script>
   </body>
 </html>

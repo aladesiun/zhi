@@ -3,7 +3,7 @@
      <div class="lg:w-[500px] md:w-[500px] sm:w-full w-full h-[100vh] pt-[130px]  mx-auto ">
           <div>
                 <div class="h-15 w-[138px] text-center h-[34px] mx-auto mb-5">
-                    <img alt="IMG" src="../assets/Images/zhi-img.jpg" class="h-[30px]"/>
+                    <img alt="IMG" src="../auth/../../assets/Images/zhi-img.jpg" class="h-[30px]"/>
                 </div>
                 <div class="w-full text-center mb-5">
                     <p class="font-light text-[27px]">Log in to your account</p>
