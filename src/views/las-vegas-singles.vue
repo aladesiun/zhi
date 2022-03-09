@@ -59,13 +59,13 @@
               <div class="tab-content-wrapper">
                 <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show" id="v-pills-post" role="tabpanel" aria-labelledby="v-pills-post-tab">
-                    <div class="w-full border border-red-800 h-[500px] rounded mt-5">
+                    <div class="w-full border border-red-800 h-[500px] bg-white rounded mt-5">
                       <router-link to="">
                         <div class="w-full border-red-800 border h-[263px]">
-                          <img alt="IMG" src="../views/../assets/Images/purple.png"/>
+                          <img alt="IMG" src="../views/../assets/Images/purple.png" class="ht"/>
                         </div>
                       </router-link>
-                      <div class="flex justify-between items-center">
+                      <div class="flex justify-between items-center mt-5 mx-6">
                         <div>
                           <p class="text-2xl"> Hello Singles, who's here ?</p>
                         </div>

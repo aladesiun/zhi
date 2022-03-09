@@ -34,3 +34,6 @@
 .chkbox-green {
   color: #06b77e!important;
 }
+.ht{
+  height: -webkit-fill-available;
+}
