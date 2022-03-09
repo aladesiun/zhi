@@ -5,7 +5,7 @@
               <div class="w-[287px] h-[700px]">
                 <div class="border-b mb-2 p-2 pl-4 xl:hidden block"><p class="bg-btn rounded  p-2 py-1 inline text-white font-semibold">z</p><span class="text-[16px] font-bold">zhivago</span></div>
                 <router-link to="">
-                  <div class="mb-10 ml-4 active text-inp hover:text-black ease-in-out duration-200">
+                  <div class="mb-10 ml-4 view text-inp hover:text-black ease-in-out duration-200">
                     <i class="fa-solid fa-house mr-2"></i>Home
                   </div>
                 </router-link>
