@@ -60,8 +60,20 @@
                 <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show" id="v-pills-post" role="tabpanel" aria-labelledby="v-pills-post-tab">
                     <div class="w-full border border-red-800 h-[500px] rounded mt-5">
-                      <div class="w-full border-red-800 border h-[200px]">
-
+                      <router-link to="">
+                        <div class="w-full border-red-800 border h-[263px]">
+                          <img alt="IMG" src="../views/../assets/Images/purple.png"/>
+                        </div>
+                      </router-link>
+                      <div class="flex justify-between items-center">
+                        <div>
+                          <p class="text-2xl"> Hello Singles, who's here ?</p>
+                        </div>
+                        <div class="flex">
+                          <p class="mr-5 text-inp"><router-link to="">Share</router-link></p>
+                          <p class="mr-5 text-inp"><router-link to=""><i class="fa-solid fa-ellipsis"></i></router-link></p>
+                          <p class="w-[25px] h-[25px] rounded-full bg-btnBorder text-white flex justify-center items-center"><i class="fa-solid fa-thumbtack text-sm rotate-45"></i></p>
+                        </div>
                       </div>
                     </div>
                   </div>
