@@ -68,10 +68,11 @@
                   <p class="text-sm">13 members</p>
                 </div>
              </div>
-          </div> 
+          </div> -->
               </div>
             </div>
           </div>
+    
         </div>
       </div>
     </div>
