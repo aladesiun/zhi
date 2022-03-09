@@ -36,6 +36,7 @@
 }
 .ht{
   height: -webkit-fill-available;
+  width: -webkit-fill-available;
 }
 .bg-gray-900{
   z-index: -1!important;
