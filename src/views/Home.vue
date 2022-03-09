@@ -37,8 +37,10 @@
                   <div class="name-details">
                     <div class="flex space-between">
                       <p class="capitalize text-[14px] font-semibold ">gabrielle Brunson</p>
-                      <span class="feed-tag bg-btn text-white font-bold text-[14px] px-2 rounded uppercase mx-1">ADMIN</span>
-                      <span class="feed-tag bg-btn text-white font-bold text-[14px] px-2 rounded uppercase mx-1 mr-2">🤗hi i'm new here</span>
+                     <div>
+                        <span class="feed-tag whitespace-nowrap bg-btn text-white font-bold text-[14px] px-2 rounded uppercase mx-1">ADMIN</span>
+                      <span class="feed-tag whitespace-nowrap bg-btn text-white font-bold text-[14px] px-2 rounded uppercase mx-1 mr-2">🤗hi i'm new here</span>
+                     </div>
                       <span class="feed-date text-[13px] font-lighter text-inp"><router-link to=""> 25 days ago</router-link></span>
                     </div>
                     <p class="feed-address text-[12px] font-lighter text-inp">Posted in Las vegas singles</p>
@@ -67,9 +69,13 @@
             </div>
             
           </div>
-          <div class="notif ml-5">
+
+          <div class="notif ml-5 hidden lg:block">
             <div>
-              <button class="bg-btn px-10 py-2 text-white  w-30 font-bold text-lg rounded">New Post</button>
+               <div class="mb-10 ml-4 active text-inp text-center hover:text-black ease-in-out duration-200">
+                    <span class="block text-center">New post</span>
+                  </div>
+
               <div class="bg-white">
                 <p class="text-sm font-bold">Get started</p>
                 <div class="list"></div>
