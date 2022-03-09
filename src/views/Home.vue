@@ -69,11 +69,13 @@
             </div>
             
           </div>
+
           <div class="notif ml-5 hidden lg:block">
             <div>
                <div class="mb-10 ml-4 active text-inp text-center hover:text-black ease-in-out duration-200">
                     <span class="block text-center">New post</span>
                   </div>
+
               <div class="bg-white">
                 <p class="text-sm font-bold">Get started</p>
                 <div class="list"></div>
