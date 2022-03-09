@@ -1,14 +1,15 @@
 <template>
     <div>
-         <div class="sidebar  bg-homebg z-40 hidden lg:block">
-            <div class="w-auto lg:w-[430px] h-[700px]  pt-11 fixed md:left-[10px] lg:left-2 top-[65px] bottom-0 flex justify-end items-center bg-homebg">
+         <div class="sidebar  bg-homebg z-40 hidden xl:block">
+            <div class="w-auto xl:w-[400px] h-[700px] pl-2   pt-11 fixed md:left-[10px] -left-3 top-[65px] bottom-0 flex justify-end items-center bg-homebg">
               <div class="w-[287px] h-[700px]">
+                <div class="border-b mb-2 p-2 pl-4 xl:hidden block"><p class="bg-btn rounded  p-2 py-1 inline text-white font-semibold">z</p><span class="text-[16px] font-bold">zhivago</span></div>
                 <router-link to="">
-                  <div class="mb-10 active text-inp hover:text-black ease-in-out duration-200">
+                  <div class="mb-10 ml-4 active text-inp hover:text-black ease-in-out duration-200">
                     <i class="fa-solid fa-house mr-2"></i>Home
                   </div>
                 </router-link>
-                <div class="pl-2">
+                <div class="pl-4">
                   <div class="mb-6">
                     <div class="flex justify-start items-center">
                       <div class="dp cursor-pointer w-[16px] h-[16px] rounded-md ease-in-out duration-300 hover:bg-dropDown flex justify-center items-center mr-2">

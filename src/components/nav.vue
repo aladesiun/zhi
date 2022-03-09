@@ -12,7 +12,8 @@
             <div class="hidden justify-between items-center md:flex md:w-auto md:order-1" id="mobile-menu-4">
                 <div class="relative">
                     <i class="fa-solid fa-magnifying-glass absolute left-[16px] top-[12px] text-search"></i>
-                    <input type="text" placeholder="Search" id="base-input" class="bg-searchinputcolor pl-12 text-lg border-0 text-gray-900 rounded block w-full h-[40px] p-1.5 dark:placeholder-gray-400 placeholder:text-base" />
+
+                    <input type="text" placeholder="Search" id="base-input" class="bg-searchinputcolor pl-12 text-lg border-0 text-gray-900 rounded block xl:w-[690px] md:w-[400px] h-[40px] p-1.5 dark:placeholder-gray-400 placeholder:text-base" />
                 </div>
             </div>
         </div>
