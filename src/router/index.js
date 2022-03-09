@@ -8,6 +8,7 @@ import signupEmail from '../views/auth/signup-email'
 import profile from '../views/profile.vue'
 import layout from '../views/layout'
 import lasVegas from '../views/las-vegas-singles.vue'
+import notifications from '../views/notifications'
 
 
 const routes = [
@@ -26,6 +27,11 @@ const routes = [
         name: 'profile',
         component:profile
       },
+      {
+        path: '/notifications',
+        name: 'notifications',
+        component:notifications 
+      }
      
     ]
   },
@@ -54,6 +60,7 @@ const routes = [
     name: 'signup-email',
     component: signupEmail
   },
+ 
   {
     path: '/las-vegas-singles',
     name: 'las-vegas-singles',
