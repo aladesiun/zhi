@@ -3,13 +3,13 @@
     <div class="container flex  justify-between items-center my-[-2px] mx-auto max-w-[1290px]">
         <div class="flex justify-start items-center">
             <a href="#" class="flex items-center mr-10">
-              <img alt="IMG" src="../assets/Images/zhi-img.jpg" class="h-[58px]"/>
-            </a>  
-            <div class="hidden justify-between items-center  md:flex md:w-auto md:order-1  " id="mobile-menu-4">
-               <div class="relative">
-                   <i class="fa-solid fa-magnifying-glass absolute left-[16px] top-[12px] text-search"></i>
-                  <input type="text" placeholder="Search" id="base-input" class="bg-searchinputcolor pl-12 text-lg border-0 text-gray-900 rounded   block w-full h-[40px] p-1.5 dark:placeholder-gray-400 placeholder:text-base"> 
-              </div>
+                <img alt="IMG" src="../assets/Images/zhi-img.jpg" class="h-[58px]" />
+            </a>
+            <div class="hidden justify-between items-center md:flex md:w-auto md:order-1" id="mobile-menu-4">
+                <div class="relative">
+                    <i class="fa-solid fa-magnifying-glass absolute left-[16px] top-[12px] text-search"></i>
+                    <input type="text" placeholder="Search" id="base-input" class="bg-searchinputcolor pl-12 text-lg border-0 text-gray-900 rounded block xl:w-[690px] md:w-[400px] h-[40px] p-1.5 dark:placeholder-gray-400 placeholder:text-base" />
+                </div>
             </div>
         </div>
         <div class="flex md:order-2">
