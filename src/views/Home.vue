@@ -27,7 +27,7 @@
 
             </div>
             <div class="feed bg-white h-auto mb-4 shadow">
-              <div class="px-7 py-8">
+              <div class="lg:px-7 lg:py-8 px-2 py-3">
                 <div class="feed-head flex space-between align-center mb-4">
                   <router-link to="">
                     <div class="pro-img rounded-[50%] h-10 w-10 cursor-pointer bg-black mr-2"><img alt="IMG" src="../views/../assets/Images/zhi-ing.jpg" class="rounded-[50%]"></div>
@@ -51,7 +51,7 @@
                 <div class="w-[400px] mb-10 h-auto">
                   <p class="mb-5">😍</p>
                   <div class="w-full h-[344px] cursor-zoom-in">
-                    <img alt="IMG" src="../views/../assets/Images/kzi.gif" class="h-full w-full rounded"/>
+                    <img alt="IMG" src="../views/../assets/Images/kzi.gif" class="h-full  w-[300px ] md:w-full rounded"/>
                   </div>
                 </div>
                 <div class="flex justify-start items-center">
@@ -105,7 +105,7 @@
                 <div class="w-[400px] mb-10 h-auto">
                   <p class="mb-5">😍</p>
                   <div class="w-full h-[344px] cursor-zoom-in">
-                    <img alt="IMG" src="../views/../assets/Images/kzi.gif" class="h-full w-full rounded"/>
+                    <img alt="IMG" src="../views/../assets/Images/kzi.gif" class="h-full  w-[300px] md:w-full rounded"/>
                   </div>
                 </div>
                 <div class="flex justify-start items-center">
@@ -139,15 +139,49 @@
             </div>
           </div>
 
-          <div class="notif ml-5 hidden lg:block">
+          <div class="notif ml-5 hidden lg:block w-[70%] xl:-ml-5 ml-5">
             <div>
-               <div class="mb-10 ml-4 active text-inp text-center hover:text-black ease-in-out duration-200">
-                    <span class="block text-center">New post</span>
+               <div class="text-white">
+                    <button class="block mb-10 w-full  text-white py-3 bg-btn  hover:text-black ease-in-out duration-200">New post</button>
                   </div>
 
-              <div class="bg-white">
+              <div class="bg-white px-4 py-4">
                 <p class="text-sm font-bold">Get started</p>
-                <div class="list"></div>
+                <div class="list ">
+                  <ul>
+                    <li class="my-2">
+                      <a href="" class="text-lg text-inp">
+                        <input id="remember" aria-describedby="remember" type="checkbox"  class="chkbox-green mr-2 w-4 h-4  bg-gray-50 rounded-[50%] border border-gray-300 focus:ring-3 focus:ring-green-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-green-600 dark:ring-offset-gray-800" required>
+                        <span>Fill out your profile</span>
+                    </a>
+                    </li>
+                    <li class="mt-2">
+                      <a href="" class="text-lg text-inp">
+                        <input id="remember" aria-describedby="remember" type="checkbox"  class="chkbox-green mr-2 w-4 h-4  bg-gray-50 rounded-[50%] border border-gray-300 focus:ring-3 focus:ring-green-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-green-600 dark:ring-offset-gray-800" required>
+                        <span>Set a profile picture</span>
+                    </a>
+                    </li>
+                    <li class="mt-2">
+                      <a href="" class="text-lg text-inp">
+                        <input id="remember" aria-describedby="remember" type="checkbox"  class="chkbox-green mr-2 w-4 h-4  bg-gray-50 rounded-[50%] border border-gray-300 focus:ring-3 focus:ring-green-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-green-600 dark:ring-offset-gray-800" required>
+                        <span>Join 3 spaces</span>
+                    </a>
+                    </li>
+                    <li class="mt-2">
+                      <a href="" class="text-lg text-inp">
+                        <input id="remember" aria-describedby="remember" type="checkbox"  class="chkbox-green mr-2 w-4 h-4  bg-gray-50 rounded-[50%] border border-gray-300 focus:ring-3 focus:ring-green-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-green-600 dark:ring-offset-gray-800" required>
+                        <span>Add a comment</span>
+                    </a>
+                    </li>
+                    <li class="mt-2">
+                      <a href="" class="text-lg text-inp">
+                        <input id="remember" aria-describedby="remember" type="checkbox"  class="chkbox-green mr-2 w-4 h-4  bg-gray-50 rounded-[50%] border border-gray-300 focus:ring-3 focus:ring-green-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-green-600 dark:ring-offset-gray-800" required>
+                        <span>Create a post</span>
+                    </a>
+                    </li>
+                    
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
