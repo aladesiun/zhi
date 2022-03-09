@@ -31,6 +31,9 @@
   font-weight: 600!important;
   color: #6e7a91!important;
 }
+.chkbox-green {
+  color: #06b77e!important;
+}
 .ht{
   height: -webkit-fill-available;
 }
