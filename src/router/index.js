@@ -7,6 +7,7 @@ import loginEmail from '../views/auth/login-email.vue'
 import signupEmail from '../views/auth/signup-email'
 import profile from '../views/profile.vue'
 import layout from '../views/layout'
+import lasVegas from '../views/las-vegas-singles.vue'
 
 
 const routes = [
@@ -54,6 +55,16 @@ const routes = [
     component: signupEmail
   },
 
+  {
+    path: '/profile',
+    name: 'profile',
+    component:profile
+  },
+  {
+    path: '/las-vegas-singles',
+    name: 'las-vegas-singles',
+    component:lasVegas
+  },
   // {
   //   path: '/signup',
   //   name: 'signup',
