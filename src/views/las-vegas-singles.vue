@@ -3,8 +3,8 @@
     <Navheader/>
     <side-bar/>
     <div>
-      <div class="home-content xl:max-w-screen-xl mx-auto mt-0 ml-2 lg:ml-[456px] pt-[82px] flex" >
-        <div class="w-full h-[88vh] w-[61%] overflow-y-scroll sb">
+      <div class="home-content xl:max-w-screen-xl mx-auto mt-0 ml-2 lg:ml-[444px] pt-[82px] flex" >
+        <div class="w-full h-[88vh] w-[64%] overflow-y-scroll sb">
             <div class="bg-white w-full rounded-md  shadow-shd border border-brdr">
               <div class="flex justify-between items-center border-b border-lightB  py-5 px-5">
                 <div>
@@ -59,8 +59,10 @@
               <div class="tab-content-wrapper">
                 <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show" id="v-pills-post" role="tabpanel" aria-labelledby="v-pills-post-tab">
-                    <div class="w-full border border-red-800 h-[700px] mt-5">
+                    <div class="w-full border border-red-800 h-[500px] rounded mt-5">
+                      <div class="w-full border-red-800 border h-[200px]">
 
+                      </div>
                     </div>
                   </div>
                   <div class="tab-pane hidden fade" id="v-pills-members" role="tabpanel" aria-labelledby="v-pills-members-tab">
