@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Nunito:wght@600&family=Prompt:wght@300;500&family=Roboto:wght@400;500;700&family=Satisfy&family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
-.show{
+.shw{
   display: block!important;
 }
 .rotate{
   transform: rotate(90deg);
 }
-.active{
+.view{
   width:270px;
  height: 35px;
  display: flex;
@@ -26,7 +26,8 @@
   width: 0 !important;
   display: none; 
 }
-.active-tab{
+.active{
   border-bottom: 2px solid #506CF0!important;
   font-weight: 600!important;
+  color: #6e7a91!important;
 }

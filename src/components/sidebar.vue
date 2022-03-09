@@ -4,7 +4,7 @@
             <div class="w-auto lg:w-[430px] h-[700px]  pt-11 fixed md:left-[10px] lg:left-2 top-[65px] bottom-0 flex justify-end items-center bg-homebg">
               <div class="w-[287px] h-[700px]">
                 <router-link to="">
-                  <div class="mb-10 active text-inp hover:text-black ease-in-out duration-200">
+                  <div class="mb-10 view text-inp hover:text-black ease-in-out duration-200">
                     <i class="fa-solid fa-house mr-2"></i>Home
                   </div>
                 </router-link>
