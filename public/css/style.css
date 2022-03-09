@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Nunito:wght@600&family=Prompt:wght@300;500&family=Roboto:wght@400;500;700&family=Satisfy&family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+.show{
+  display: block!important;
+}
+.rotate{
+  transform: rotate(90deg);
+}
+.active{
+  width:270px;
+ height: 35px;
+ display: flex;
+ justify-content: start;
+ align-items: center;
+ border-radius: 5px;
+ padding-left: 18px;
+ color: #fff!important;
+ background: #506CF0;
+}
+.sb{
+  /* this will hide the scrollbar in mozilla based browsers */
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+.sb::-webkit-scrollbar{
+  width: 0 !important;
+  display: none; 
+}
+.active-tab{
+  border-bottom: 2px solid #506CF0!important;
+  font-weight: 600!important;
+}

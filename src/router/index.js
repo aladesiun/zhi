@@ -5,6 +5,7 @@ import home from '../views/Home'
 import forgotPwd from '../views/auth/forgot-pwd.vue'
 import loginEmail from '../views/auth/login-email.vue'
 import signupEmail from '../views/auth/signup-email'
+import profile from '../views/profile.vue'
 
 
 const routes = [
@@ -37,6 +38,11 @@ const routes = [
     path: '/signup-email',
     name: 'signup-email',
     component: signupEmail
+  },
+  {
+    path: '/profile',
+    name: 'profile',
+    component:profile
   },
   // {
   //   path: '/signup',
