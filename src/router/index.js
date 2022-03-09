@@ -6,6 +6,7 @@ import forgotPwd from '../views/auth/forgot-pwd.vue'
 import loginEmail from '../views/auth/login-email.vue'
 import signupEmail from '../views/auth/signup-email'
 import profile from '../views/profile.vue'
+import lasVegas from '../views/las-vegas-singles.vue'
 
 
 const routes = [
@@ -43,6 +44,11 @@ const routes = [
     path: '/profile',
     name: 'profile',
     component:profile
+  },
+  {
+    path: '/las-vegas-singles',
+    name: 'las-vegas-singles',
+    component:lasVegas
   },
   // {
   //   path: '/signup',
