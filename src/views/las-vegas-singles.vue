@@ -62,7 +62,7 @@
                     <div class="w-full border border-red-800 h-[500px] rounded mt-5">
                       <router-link to="">
                         <div class="w-full border-red-800 border h-[263px]">
-                          <img alt="IMG" src="../views/../assets/Images/purple.png"/>
+                          <img alt="IMG" src="../views/../assets/Images/purple.png" class="ht"/>
                         </div>
                       </router-link>
                       <div class="flex justify-between items-center">

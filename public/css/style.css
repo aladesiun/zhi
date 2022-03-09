@@ -31,3 +31,6 @@
   font-weight: 600!important;
   color: #6e7a91!important;
 }
+.ht{
+  height: -webkit-fill-available;
+}
