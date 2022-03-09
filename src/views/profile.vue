@@ -1,7 +1,7 @@
 <template>
   <div class="home bg-homebg h-[100vh]">
-    <Navheader/>
-    <side-bar/>
+    <!-- <Navheader/>
+    <side-bar/> -->
     <div>
       <div class="home-content xl:max-w-screen-xl mx-auto mt-0 ml-2 lg:ml-[456px] pt-[82px]" >
         <div class="bg-white w-[85%] rounded-md shadow-shd border border-brdr h-auto pt-6">
@@ -13,6 +13,7 @@
             <div>
               <p class="text-xl">Joseph Kender</p>
             </div>
+            
           </div> 
            <div class="border-b border-lightB">
             <ul class="flex flex-wrap -mb-px pl-7">
@@ -83,15 +84,15 @@
 </template>
 
 <script>
-import Navheader from "../components/nav.vue";
-import sideBar from "../components/sidebar.vue"
+// import Navheader from "../components/nav.vue";
+// import sideBar from "../components/sidebar.vue"
 // @ is an alias to /src
 
 export default {
   name: 'Home',
   components: {
-    Navheader,
-    sideBar
+    // Navheader,
+    // sideBar
 }
 }
 </script>
