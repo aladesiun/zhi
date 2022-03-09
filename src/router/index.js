@@ -9,6 +9,7 @@ import profile from '../views/profile.vue'
 import layout from '../views/layout'
 import lasVegas from '../views/las-vegas-singles.vue'
 import notifications from '../views/notifications'
+import message from '../views/message'
 
 
 const routes = [
@@ -65,6 +66,11 @@ const routes = [
     path: '/las-vegas-singles',
     name: 'las-vegas-singles',
     component:lasVegas
+  },
+  {
+    path: '/message',
+    name: 'message',
+    component: message
   },
   // {
   //   path: '/signup',
