@@ -1,5 +1,5 @@
 <template>
-  <div class="home bg-homebg h-[100vh]">
+  <div class="home bg-homebg h-[100vh]" data-modal-toggle="defaultModal">
     <div>
       <div class="home-content xl:max-w-screen-xl mx-auto mt-0 ml-2 xl:ml-[450px] pt-[82px]" >
         <div class="grid grid-cols-3 mx-auto">
