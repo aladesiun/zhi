@@ -1,5 +1,5 @@
 <template>
-      <div class="home bg-homebg h-[100vh]">
+      <div class="home bg-homebg h-[100vh] overflow-x">
           <Navheader/>
           <Sidebar/>
           <router-view></router-view>
