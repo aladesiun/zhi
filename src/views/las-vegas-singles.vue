@@ -75,6 +75,14 @@
                           <p class="w-[25px] h-[25px] rounded-full bg-btnBorder text-white flex justify-center items-center"><i class="fa-solid fa-thumbtack text-sm rotate-45"></i></p>
                         </div>
                       </div>
+                      <div class="flex justify-center items-center">
+                        <div class="flex justify-start items-center">
+                           
+                        </div>
+                        <div>
+
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div class="tab-pane hidden fade" id="v-pills-members" role="tabpanel" aria-labelledby="v-pills-members-tab">
