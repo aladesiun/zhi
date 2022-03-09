@@ -16,6 +16,34 @@
                 </div>
             </div>
         </div>
+          <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider" class="text-black 
+              text-center inline-flex items-center " type="button">
+        <i class="fa-regular fa-bell"></i>
+              </button>
+              <div id="dropdownDivider" class="hidden z-10 w-[360px] -mr-[50px] text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
+                  <div class="flex justify-between p-3 py-4">
+                      <span>Notications</span>
+                      <div>
+                          <i class="fa-regular fa-check-double"></i>
+        <i class="fa-regular fa-bell"></i>
+
+                      </div>
+                  </div>
+              <ul class="py-1" aria-labelledby="dropdownDividerButton">
+              <li>
+              <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+              </li>
+              <li>
+              <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+              </li>
+              <li>
+              <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+              </li>
+              </ul>
+              <div class="py-1">
+              <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Separated link</a>
+              </div>
+              </div>
         <div class="profile block lg:hidden">
                    <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider" 
                    class="text-white rounded-[50%]  font-medium bg-[#6641d8] text-sm w-7 h-7 text-center  flex  justify-center items-center" type="button">AT </button>
