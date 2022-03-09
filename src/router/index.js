@@ -54,12 +54,6 @@ const routes = [
     name: 'signup-email',
     component: signupEmail
   },
-
-  {
-    path: '/profile',
-    name: 'profile',
-    component:profile
-  },
   {
     path: '/las-vegas-singles',
     name: 'las-vegas-singles',
