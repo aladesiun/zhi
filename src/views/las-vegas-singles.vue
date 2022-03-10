@@ -59,7 +59,7 @@
               <div class="tab-content-wrapper">
                 <div class="tab-content" id="myTabContent">
                  <div class="tab-pane fade show" id="v-pills-post" role="tabpanel" aria-labelledby="v-pills-post-tab">
-                    <div class="w-full border border-red-800 h-auto bg-white rounded mt-5">
+                    <div class="w-full h-auto bg-white rounded mt-5">
                       <router-link to="">
                         <div class="w-full border-red-800 border h-[263px]">
                           <img alt="IMG" src="../views/../assets/Images/purple.png" class="ht"/>
@@ -118,7 +118,7 @@
               
                  </div>
                  <div class="tab-pane hidden fade" id="v-pills-members" role="tabpanel" aria-labelledby="v-pills-members-tab">
-                    <div class="w-full border-red-800 border h-[60px] flex justify-start items-center"> 
+                    <div class="w-full  h-[60px] mb-[11px] flex justify-start items-center"> 
                       <!-----------drop1------->       
                       <div class="relative">             
                         <button id="dropdownButton" class="text-black d-btn bg-white mr-3 hover:text-btnHover  hover:border-btnBorder border ease-in-out duration-200  border-bord h-[37px] font-semibold rounded-sm text-base px-3 py-1 text-center inline-flex items-center" type="button">Bio <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
@@ -203,22 +203,27 @@
                         </div>
                       </div>
                       <!-----------drop5-------> 
-                      <button id="dropdownButton" data-dropdown-toggle="dropdown" class="text-black bg-white mr-3 h-[37px] border hover:text-btnHover  hover:border-btnBorder ease-in-out duration-200 border-bord font-semibold rounded-sm text-sm px-3 py-2.5 text-center inline-flex items-center" type="button">Tags <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
-                      <div id="dropdown" class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-                         <ul class="py-1" aria-labelledby="dropdownButton">
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
-                           </li>
-                          </ul>
+                     <div class="relative">             
+                        <button id="dropdownButton" class="text-black d___btn bg-white mr-3 hover:text-btnHover  hover:border-btnBorder border ease-in-out duration-200  border-bord h-[37px] font-semibold rounded-sm text-base px-3 py-1 text-center inline-flex items-center" type="button">Tags<i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
+                        <div class="hidden z-10 b___body absolute left-0 top-[45px]">
+                          <div class="p-4 w-[350px] shadow-lg border border-lightB bg-white rounded h-auto ease-in-out duration-500" aria-labelledby="dropdownButton">
+                          <div>
+                            <form>
+                              <label id="bio" class="text-lg font-semibold text-blk">Tags</label>
+                              <input type="text" id="bio" class="w-full border rounded-sm border-lightB mt-3 mb-4 h-[37px] ease-in-out  duration-200" placeholder="Search"/>
+                              <div class="flex items-center mb-4">
+                                <input id="checkbox-1" aria-describedby="checkbox-1" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 focus:ring-2" checked>
+                                <label for="checkbox-1" class="ml-3 text-sm font-semibold text-darkTxt text-base">🤗 Hi I'm new here</label>
+                              </div>
+                               <div class="flex items-center mb-4">
+                                <input id="checkbox-1" aria-describedby="checkbox-1" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 focus:ring-2" checked>
+                                <label for="checkbox-1" class="ml-3 text-sm font-semibold  text-darkTxt text-base">🏆 Admin of the week</label>
+                              </div>
+                              <button class=" h-[39px] text-white text-basee w-full rounded-sm bg-btn border-btnBorder hover:bg-btnHover ease-in-out duration-200 flex justify-center items-center">Apply</button>
+                            </form>
+                          </div>
+                          </div>
+                        </div>
                       </div>
                       <!-----------drop6-------> 
                         <div class="relative">             
@@ -247,6 +252,68 @@
                             </form>
                           </div>
                           </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-full mb-5 bg-white rounded-md py-5 px-6 flex justify-start items-center">
+                      <div class="w-[118px] h-[120px] rounded-md bg-memb flex justify-center items-center mr-6">
+                        <p class="text-white text-4xl">AT</p>
+                      </div>
+                      <div class="">
+                        <p class="text-2xl mb-[46px]">Aladesiun Temitope</p>
+                        <div>
+                          <button class="w-[93px] h-[36px]  rounded-sm bg-btn hover:bg-btnHover text-white">Message</button>
+                        </div>
+                      </div>
+                    </div>
+                     <div class="w-full  mb-5 bg-white rounded-md py-5 px-6 flex justify-start items-center">
+                      <div class="w-[118px] h-[120px] rounded-md bg-memb flex justify-center items-center mr-6">
+                        <p class="text-white text-4xl">AT</p>
+                      </div>
+                      <div class="">
+                        <p class="text-2xl mb-[46px]">Aladesiun Temitope</p>
+                        <div>
+                          <button class="w-[93px] h-[36px]  rounded-sm bg-btn hover:bg-btnHover text-white">Message</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-full  mb-5 bg-white rounded-md py-5 px-6">
+                      <div class="flex justify-start items-center">
+                          <div class="w-[118px] h-[120px] rounded-md bg-memb flex justify-center items-center mr-6">
+                            <p class="text-white text-4xl">AT</p>
+                          </div>
+                          <div class="">
+                            <p class="text-2xl mb-[46px]">Aladesiun Temitope</p>
+                            <div>
+                              <button class="w-[93px] h-[36px]  rounded-sm bg-btn hover:bg-btnHover text-white">Message</button>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="flex mt-4">
+                        <div class="w-[112px] h-[23px]  text-right mr-7">
+                          <p>BIO</p>
+                        </div>
+                        <div>
+                          <p class="text-base">Hey everyone! I'm here to help you with anything on Zhivago</p>
+                        </div>
+                      </div>
+                       <div class="flex mt-4 mb-4">
+                        <div class="w-[112px] h-[23px]  text-right mr-7">
+                          <p>TAGS</p>
+                        </div>
+                        <div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <div class="w-full h-[159px] mb-5 bg-white rounded-md py-5 px-6 flex justify-start items-center">
+                      <div class="w-[118px] h-[120px] rounded-md bg-memb flex justify-center items-center mr-6">
+                        <p class="text-white text-4xl">AT</p>
+                      </div>
+                      <div class="">
+                        <p class="text-2xl mb-[46px]">Aladesiun Temitope</p>
+                        <div>
+                          <button class="w-[93px] h-[36px]  rounded-sm bg-btn hover:bg-btnHover text-white">Message</button>
                         </div>
                       </div>
                     </div>
