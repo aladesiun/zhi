@@ -13,7 +13,7 @@
                 <div>
                   <button class="w-[114px] h-[38px] text-white bg-btn hover:bg-btnHover rounded border border-btnBorder">
                     Join space
-                  </button>
+                  </button> 
                 </div>
               </div>
               <div class="flex justify-between items-center">
