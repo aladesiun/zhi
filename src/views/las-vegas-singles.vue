@@ -118,75 +118,89 @@
               
                  </div>
                  <div class="tab-pane hidden fade" id="v-pills-members" role="tabpanel" aria-labelledby="v-pills-members-tab">
-                    <div class="w-full border-red-800 border h-[60px] flex"> 
+                    <div class="w-full border-red-800 border h-[60px] flex justify-start items-center"> 
                       <!-----------drop1------->       
                       <div class="relative">             
                         <button id="dropdownButton" class="text-black d-btn bg-white mr-3 hover:text-btnHover  hover:border-btnBorder border ease-in-out duration-200  border-bord h-[37px] font-semibold rounded-sm text-base px-3 py-1 text-center inline-flex items-center" type="button">Bio <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
                         <div class="hidden z-10 b-body absolute left-0 top-[45px]">
-                          <div class="p-4 w-[350px] shadow-lg border border-lightB bg-white rounded h-[178px] ease-in-out duration-500" aria-labelledby="dropdownButton">
+                          <div class="p-4 w-[350px] shadow-lg border border-lightB bg-white rounded h-[170px] ease-in-out duration-500" aria-labelledby="dropdownButton">
                           <div>
                             <form>
                               <label id="bio" class="text-lg font-semibold text-blk">Bio</label>
-                              <input type="text" id="bio" class="w-full border rounded-sm border-lightB mt-3 h-30"/>
-                              <button class=" h-30 text-white w-full bg-btn border-btnBorder hover:btnHover">Apply</button>
+                              <input type="text" id="bio" class="w-full border rounded-sm border-lightB mt-3 mb-4 h-30 ease-in-out duration-200"/>
+                              <button class=" h-[39px] text-white text-basee w-full rounded-sm bg-btn border-btnBorder hover:bg-btnHover ease-in-out duration-200 flex justify-center items-center">Apply</button>
                             </form>
                           </div>
                           </div>
                         </div>
                       </div>
                       <!-----------drop2-------> 
-                      <button id="dropdownButton" data-dropdown-toggle="dropdown" class="text-black bg-white mr-3  h-[37px] hover:text-btnHover  hover:border-btnBorder ease-in-out duration-200 border border-bord font-semibold rounded-sm text-base px-3 py-2.5 text-center inline-flex items-center" type="button">Headline <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
-                      <div id="dropdown" class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-                         <ul class="py-1" aria-labelledby="dropdownButton">
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
-                           </li>
-                          </ul>
+                      <div class="relative">             
+                        <button id="dropdownButton" class="text-black d--btn bg-white mr-3 hover:text-btnHover  hover:border-btnBorder border ease-in-out duration-200  border-bord h-[37px] font-semibold rounded-sm text-base px-3 py-1 text-center inline-flex items-center" type="button">Headline<i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
+                        <div class="hidden z-10 b--body absolute left-0 top-[45px]">
+                          <div class="p-4 w-[350px] shadow-lg border border-lightB bg-white rounded h-[170px] ease-in-out duration-500" aria-labelledby="dropdownButton">
+                          <div>
+                            <form>
+                              <label id="bio" class="text-lg font-semibold text-blk">Headline</label>
+                              <input type="text" id="bio" class="w-full border rounded-sm border-lightB mt-3 mb-4 h-30 ease-in-out duration-200"/>
+                              <button class=" h-[39px] text-white text-basee w-full rounded-sm bg-btn border-btnBorder hover:bg-btnHover ease-in-out duration-200 flex justify-center items-center">Apply</button>
+                            </form>
+                          </div>
+                          </div>
+                        </div>
                       </div>
                       <!-----------drop3-------> 
-                      <button id="dropdownButton" data-dropdown-toggle="dropdown" class="text-black bg-white mr-3 font-semibold hover:text-btnHover  hover:border-btnBorder ease-in-out duration-200 h-[37px] border border-bord rounded-sm text-sm px-3 py-2.5 text-center inline-flex items-center" type="button">Location <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
-                      <div id="dropdown" class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-                         <ul class="py-1" aria-labelledby="dropdownButton">
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
-                           </li>
-                          </ul>
+                      <div class="relative">             
+                        <button id="dropdownButton" class="text-black d_btn bg-white mr-3 hover:text-btnHover  hover:border-btnBorder border ease-in-out duration-200  border-bord h-[37px] font-semibold rounded-sm text-base px-3 py-1 text-center inline-flex items-center" type="button">Location<i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
+                        <div class="hidden z-10 b_body absolute left-0 top-[45px]">
+                          <div class="p-4 w-[350px] shadow-lg border border-lightB bg-white rounded h-[170px] ease-in-out duration-500" aria-labelledby="dropdownButton">
+                          <div>
+                            <form>
+                              <label id="bio" class="text-lg font-semibold text-blk">Location</label>
+                              <input type="text" id="bio" class="w-full border rounded-sm border-lightB mt-3 mb-4 h-30 ease-in-out duration-200"/>
+                              <button class=" h-[39px] text-white text-basee w-full rounded-sm bg-btn border-btnBorder hover:bg-btnHover ease-in-out duration-200 flex justify-center items-center">Apply</button>
+                            </form>
+                          </div>
+                          </div>
+                        </div>
                       </div>
                       <!-----------drop4-------> 
-                      <button id="dropdownButton" data-dropdown-toggle="dropdown" class="text-black bg-white mr-3 h-[37px] border hover:text-btnHover  hover:border-btnBorder ease-in-out duration-200 border-bord  font-semibold rounded-sm text-sm px-3 py-2.5 text-center inline-flex items-center" type="button">Role <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
-                      <div id="dropdown" class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-                         <ul class="py-1" aria-labelledby="dropdownButton">
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
-                           </li>
-                          </ul>
+                      <div class="relative">             
+                        <button id="dropdownButton" class="text-black d__btn bg-white mr-3 hover:text-btnHover  hover:border-btnBorder border ease-in-out duration-200  border-bord h-[37px] font-semibold rounded-sm text-base px-3 py-1 text-center inline-flex items-center" type="button">Role<i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
+                        <div class="hidden z-10 b__body absolute left-0 top-[45px]">
+                          <div class="p-4 w-[350px] shadow-lg border border-lightB bg-white rounded h-auto ease-in-out duration-500" aria-labelledby="dropdownButton">
+                          <div>
+                            <form>
+                              <p id="bio" class="text-lg font-semibold text-blk">Role</p>
+                              
+                              <fieldset>
+                               <legend class="sr-only">Countries</legend>
+                               <div class="flex items-center mb-4">
+                                  <input id="country-option-1" type="radio" name="countries" value="USA" class="w-4 h-4  border-gray-300 focus:ring-2 focus:ring-blue-300 " aria-labelledby="country-option-1" aria-describedby="country-option-1" checked="">
+                                  <label for="country-option-1" class="block ml-2 text-base font-semibold  text-darkTxt">
+                                    Admin
+                                  </label>
+                                </div>
+                                <div class="flex items-center mb-4">
+                                  <input id="country-option-2" type="radio" name="countries" value="Germany" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 " aria-labelledby="country-option-2" aria-describedby="country-option-2">
+                                  <label for="country-option-2" class="block ml-2 text-base font-semibold  text-darkTxt">
+                                    Member
+                                  </label>
+                                </div>
+                                <div class="flex items-center mb-4">
+                                 <input id="country-option-3" type="radio" name="countries" value="Spain" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300" aria-labelledby="country-option-3" aria-describedby="country-option-3">
+                                 <label for="country-option-3" class="block ml-2 text-base font-semibold   text-darkTxt">
+                                   Moderator
+                                 </label>
+                                </div>
+                                
+                               
+                              </fieldset>
+                              <button class=" h-[39px] text-white text-basee w-full rounded-sm bg-btn border-btnBorder hover:bg-btnHover ease-in-out duration-200 flex justify-center items-center">Apply</button>
+                            </form>
+                          </div>
+                          </div>
+                        </div>
                       </div>
                       <!-----------drop5-------> 
                       <button id="dropdownButton" data-dropdown-toggle="dropdown" class="text-black bg-white mr-3 h-[37px] border hover:text-btnHover  hover:border-btnBorder ease-in-out duration-200 border-bord font-semibold rounded-sm text-sm px-3 py-2.5 text-center inline-flex items-center" type="button">Tags <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
@@ -207,22 +221,33 @@
                           </ul>
                       </div>
                       <!-----------drop6-------> 
-                      <button id="dropdownButton" data-dropdown-toggle="dropdown" class="text-black h-[37px] mr-3 bg-white border hover:text-btnHover  hover:border-btnBorder ease-in-out duration-200 border-bord    font-semibold rounded-sm text-sm px-3 py-2.5 text-center inline-flex items-center" type="button">Status <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
-                      <div id="dropdown" class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
-                         <ul class="py-1" aria-labelledby="dropdownButton">
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
-                           </li>
-                           <li>
-                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
-                           </li>
-                          </ul>
+                        <div class="relative">             
+                        <button id="dropdownButton" class="text-black d____btn bg-white mr-3 hover:text-btnHover  hover:border-btnBorder border ease-in-out duration-200  border-bord h-[37px] font-semibold rounded-sm text-base px-3 py-1 text-center inline-flex items-center" type="button">Status<i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
+                        <div class="hidden z-10 b____body absolute left-0 top-[45px]">
+                          <div class="p-4 w-[350px] shadow-lg border border-lightB bg-white rounded h-auto ease-in-out duration-500" aria-labelledby="dropdownButton">
+                          <div>
+                            <form>
+                              <p id="bio" class="text-lg font-semibold text-blk">Status</p>
+                              
+                              <fieldset>
+                               <div class="flex items-center mb-4">
+                                  <input id="country-option-1" type="radio" name="countries" value="USA" class="w-4 h-4  border-gray-300 focus:ring-2 focus:ring-blue-300 " aria-labelledby="country-option-1" aria-describedby="country-option-1" checked="">
+                                  <label for="country-option-1" class="block ml-2 text-base font-semibold  text-darkTxt">
+                                    Online
+                                  </label>
+                                </div>
+                                <div class="flex items-center mb-4">
+                                  <input id="country-option-2" type="radio" name="countries" value="Germany" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 " aria-labelledby="country-option-2" aria-describedby="country-option-2">
+                                  <label for="country-option-2" class="block ml-2 text-base font-semibold  text-darkTxt">
+                                    Offline
+                                  </label>
+                                </div>
+                              </fieldset>
+                              <button class=" h-[39px] text-white text-basee w-full rounded-sm bg-btn border-btnBorder hover:bg-btnHover ease-in-out duration-200 flex justify-center items-center">Apply</button>
+                            </form>
+                          </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>

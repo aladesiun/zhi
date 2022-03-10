@@ -26,6 +26,11 @@
   width: 0 !important;
   display: none; 
 }
+.act{
+  border-bottom: 2px solid #506CF0!important;
+  font-weight: 600!important;
+  color: #506CF0!important;
+}
 .active{
   border-bottom: 2px solid #506CF0!important;
   font-weight: 600!important;
