@@ -123,10 +123,13 @@
                       <div class="relative">             
                         <button id="dropdownButton" class="text-black d-btn bg-white mr-3 hover:text-btnHover  hover:border-btnBorder border ease-in-out duration-200  border-bord h-[37px] font-semibold rounded-sm text-base px-3 py-1 text-center inline-flex items-center" type="button">Bio <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
                         <div class="hidden z-10 b-body absolute left-0 top-[45px]">
-                          <div class="p-3 w-[350px] shadow-lg border border-lightB bg-white rounded h-[178px] ease-in-out duration-500" aria-labelledby="dropdownButton">
+                          <div class="p-4 w-[350px] shadow-lg border border-lightB bg-white rounded h-[178px] ease-in-out duration-500" aria-labelledby="dropdownButton">
                           <div>
-                            <p id="bio" class="text-lg font-semibold">Bio</p>
-                            <input type="text" id="bio" class="w-full border border-lightB h-30px"/>
+                            <form>
+                              <label id="bio" class="text-lg font-semibold text-blk">Bio</label>
+                              <input type="text" id="bio" class="w-full border rounded-sm border-lightB mt-3 h-30"/>
+                              <button class=" h-30 text-white w-full bg-btn border-btnBorder hover:btnHover">Apply</button>
+                            </form>
                           </div>
                           </div>
                         </div>
