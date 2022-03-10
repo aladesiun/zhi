@@ -80,6 +80,14 @@
             };
 
             $(() => {
+                $.fn.hideDropdown= function(){
+                    $(".b-body").removeClass('shw');
+                        $(".b--body").removeClass('shw');
+                        $(".b_body").removeClass('shw');
+                        $(".b__body").removeClass('shw');
+                        $(".b___body").removeClass('shw');
+                        $(".b____body").removeClass('shw');
+                    }
                 $(".dp").click(() => {
                     $(".dp-body").toggleClass("shw");
                     $(".ic").toggleClass("rotate");
@@ -98,22 +106,39 @@
                     $(".sidebar").toggle(100);
                 });
                 $(".d-btn").click((e)=>{
+                    $.fn.hideDropdown();
+
                     $(".b-body").toggleClass('shw');
                 })
                 $(".d--btn").click((e)=>{
+                    $.fn.hideDropdown();
+
                     $(".b--body").toggleClass('shw');
+
                 })
                 $(".d_btn").click((e)=>{
+                    $.fn.hideDropdown();
+
                     $(".b_body").toggleClass('shw');
+
                 })
                 $(".d__btn").click((e)=>{
+                    $.fn.hideDropdown();
+
                     $(".b__body").toggleClass('shw');
+
                 })
                 $(".d___btn").click((e)=>{
+                    $.fn.hideDropdown();
+
                     $(".b___body").toggleClass('shw');
+
                 })
                 $(".d____btn").click((e)=>{
+                    $.fn.hideDropdown();
+
                     $(".b____body").toggleClass('shw');
+
                 })
             });
            

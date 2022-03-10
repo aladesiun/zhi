@@ -16,7 +16,7 @@
                         <i class="fa-solid ic fa-caret-right text-inp ease-in-out duration-300"></i>
                       </div>
                       <div>
-                        <p><router-link to="" class="text-darkTxt text-lg font-semibold">Members Central</router-link></p>
+                        <p><router-link to="" class="text-darkTxt text-sm font-semibold">Members Central</router-link></p>
                       </div>
                     </div>
                     <div class="dp-body hidden w-[300px] h-[86px]  flex flex-col">
@@ -31,7 +31,7 @@
                         <i class="fa-solid i_c fa-caret-right text-inp  ease-in-out duration-300"></i>
                       </div>
                       <div>
-                        <p><router-link to="" class="text-darkTxt text-lg font-semibold">VIP GROUPS</router-link></p>
+                        <p><router-link to="" class="text-darkTxt text-sm font-semibold">VIP GROUPS</router-link></p>
                       </div>
                     </div>
                     <div class=" dp_body hidden w-[300px] h-auto flex flex-col">
@@ -52,7 +52,7 @@
                             <i class="fa-solid i__c fa-caret-right  ease-in-out duration-300 text-inp"></i>
                           </div>
                           <div>
-                            <p><router-link to="" class="text-darkTxt text-lg font-semibold">Admins</router-link></p>
+                            <p><router-link to="" class="text-darkTxt text-sm font-semibold">Admins</router-link></p>
                           </div>
                     </div>
                     <div class="dp__body hidden w-[300px] h-auto  flex flex-col">
