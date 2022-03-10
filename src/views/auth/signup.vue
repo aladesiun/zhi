@@ -16,7 +16,7 @@
                         </div>
                         <div class="mb-6 w-[90%] text-center">
                             <router-link to="" class="lg:w-max md:w-max sm:w-max w-full flex justify-center items-center mx-auto">
-                               <button class="h-[46px] lg:w-[300px] md:w-[300px] sm:w-[300px] w-full bg-white text-darkTxt hover:text-btnHover  border  hover:border-btnBorder rounded  font-semibold ease-in-out duration-200">Continue with Twitter</button>
+                               <button class="h-[46px] lg:w-[300px] md:w-[300px] sm:w-[300px] w-full bg-white text-darkTxt hover:text-btnHover  hover:border-btnBorder  border  rounded  font-semibold ease-in-out duration-200">Continue with Twitter</button>
                             </router-link>
                         </div>
                         <div class="w-[90%] text-center">

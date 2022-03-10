@@ -19,12 +19,12 @@
               <div class="flex justify-between items-center">
                 <div  class="nav capitalize nav-pills flex items-center pl-7" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
                   <div class="flex justify-start items-center relative mr-6">
-                    <a class="nav-link mb-[-1px]  text-center w-max block pr-[16px] active py-1 cursor-pointer text-lg font-medium text-center text-inp" id="v-pills-post-tab" data-toggle="pill" data-tabs-target="#v-pills-post" role="tab" aria-controls="v-pills-post" aria-selected="true">Posts</a>
+                    <a class="nav-link mb-[-1px]  text-center w-max block pr-[16px] active py-1 cursor-pointer text-lg font-base text-center text-inp" id="v-pills-post-tab" data-toggle="pill" data-tabs-target="#v-pills-post" role="tab" aria-controls="v-pills-post" aria-selected="true">Posts</a>
                     <div class="w-[16px] h-[18px] rounded absolute right-[-2px] ease-in-out duration-300 bg-gray-100 text-sm flex justify-center items-center ml-1">0</div>
                   </div>
 
                   <div class="flex justify-start items-center relative mr-6">
-                    <a class="nav-link  mb-[-1px] text-center w-max block pr-[21px] py-1  cursor-pointer text-lg font-medium text-center text-inp" id="v-pills-members-tab" data-toggle="pill" data-tabs-target="#v-pills-members" role="tab" aria-controls="v-pills-members" aria-selected="false">Members</a>
+                    <a class="nav-link  mb-[-1px] text-center w-max block pr-[21px] py-1  cursor-pointer text-lg font-base text-center text-inp" id="v-pills-members-tab" data-toggle="pill" data-tabs-target="#v-pills-members" role="tab" aria-controls="v-pills-members" aria-selected="false">Members</a>
                     <div class="w-[16px] h-[18px] rounded absolute right-[2px] ease-in-out duration-300  bg-gray-100 text-sm flex justify-center items-center ml-1">9</div>
                   </div>
                 </div>
@@ -34,7 +34,7 @@
                   <div id="dropdownInformation" class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
                     <div class="py-3 px-4 text-gray-900 dark:text-white">
                       <span class="block text-sm">Bonnie Green</span>
-                      <span class="block text-sm font-medium truncat">name@flowbite.com</span>
+                      <span class="block text-sm font-base truncat">name@flowbite.com</span>
                     </div>
                   <ul class="py-1 ease-in-out duration-300" aria-labelledby="dropdownInformationButton">
                     <li>
@@ -58,14 +58,14 @@
             <div>
               <div class="tab-content-wrapper">
                 <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show" id="v-pills-post" role="tabpanel" aria-labelledby="v-pills-post-tab">
-                    <div class="w-full border border-red-800 h-[500px] bg-white rounded mt-5">
+                 <div class="tab-pane fade show" id="v-pills-post" role="tabpanel" aria-labelledby="v-pills-post-tab">
+                    <div class="w-full border border-red-800 h-auto bg-white rounded mt-5">
                       <router-link to="">
                         <div class="w-full border-red-800 border h-[263px]">
                           <img alt="IMG" src="../views/../assets/Images/purple.png" class="ht"/>
                         </div>
                       </router-link>
-                      <div class="flex justify-between items-center mt-5 mx-6">
+                      <div class="flex justify-between items-center mt-5 mb-6 mx-6">
                         <div>
                           <p class="text-2xl"> Hello Singles, who's here ?</p>
                         </div>
@@ -75,29 +75,164 @@
                           <p class="w-[25px] h-[25px] rounded-full bg-btnBorder text-white flex justify-center items-center"><i class="fa-solid fa-thumbtack text-sm rotate-45"></i></p>
                         </div>
                       </div>
-                      <div class="flex justify-center items-center">
-                        <div class="flex justify-start items-center">
-                           
+                      <div class="feed-head flex justify-start items-center mb-10 mx-6">
+                        <router-link to="">
+                          <div class="pro-img rounded-[50%] h-10 w-10 cursor-pointer bg-black mr-2"><img alt="IMG" src="../views/../assets/Images/zhi-ing.jpg" class="rounded-[50%]"></div>
+                        </router-link>
+                        <div class="name-details">
+                          <div class="flex space-between">
+                            <p class="capitalize text-lg font-semibold ">gabrielle Brunson</p>
+                          <div>
+                              <span class="feed-tag whitespace-nowrap bg-btn text-white font-bold text-[14px] px-2 rounded uppercase mx-1">ADMIN</span>
+                            <span class="feed-tag whitespace-nowrap bg-btn text-white font-bold text-[14px] px-2 rounded uppercase mx-1 mr-2">🤗hi i'm new here</span>
+                          </div>
+                            <span class="feed-date text-[13px] font-lighter text-inp"><router-link to=""> a month ago</router-link></span>
+                          </div>
                         </div>
-                        <div>
-
+                      </div>
+                      <div class="flex justify-start items-center mx-6 mb-4">
+                        <div class="rounded-[50%] h-6 w-6 cursor-pointer bg-black mr-2" >
+                          <img  alt="IMG" src="../views/../assets/Images/zhi-ing.jpg" class="rounded-[50%]">
                         </div>
+                        <p class="text-inp text-sm">Liked by Klajdi</p>
+                    </div>
+                      <div class="w-full border-t h-[60px] pt-3 border-b border-homebg">
+                         <div class=" flex justify-between px-8 items-center">
+                           <div class="lk-comment flex text-sm text-inp">
+                              <div class="like flex mr-5 items-center ">
+                                <i class="fa-regular fa-thumbs-up mr-2"></i>
+                    
+                                 <span>like</span>
+                             </div>
+                              <div class="comment flex items-center">
+                               <i class="fa-regular fa-message mr-2"></i>
+                               <span>comment</span>
+                             </div>
+                           </div>
+                           <div class="num-comm">
+                             <span class="text-sm text-inp">0 Comment</span>
+                           </div>
+                         </div>   
+                    </div>
+                   </div>
+              
+                 </div>
+                 <div class="tab-pane hidden fade" id="v-pills-members" role="tabpanel" aria-labelledby="v-pills-members-tab">
+                    <div class="w-full border-red-800 border h-[60px] flex"> 
+                      <!-----------drop1------->       
+                      <div class="relative">             
+                        <button id="dropdownButton" class="text-black d-btn bg-white mr-3 hover:text-btnHover  hover:border-btnBorder border ease-in-out duration-200  border-bord h-[37px] font-semibold rounded-sm text-base px-3 py-1 text-center inline-flex items-center" type="button">Bio <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
+                        <div class="hidden z-10 b-body absolute left-0 top-[45px]">
+                          <div class="p-3 w-[350px] shadow-lg border border-lightB bg-white rounded h-[178px] ease-in-out duration-500" aria-labelledby="dropdownButton">
+                          <div>
+                            <p id="bio" class="text-lg font-semibold">Bio</p>
+                            <input type="text" id="bio" class="w-full border border-lightB h-30px"/>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-----------drop2-------> 
+                      <button id="dropdownButton" data-dropdown-toggle="dropdown" class="text-black bg-white mr-3  h-[37px] hover:text-btnHover  hover:border-btnBorder ease-in-out duration-200 border border-bord font-semibold rounded-sm text-base px-3 py-2.5 text-center inline-flex items-center" type="button">Headline <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
+                      <div id="dropdown" class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
+                         <ul class="py-1" aria-labelledby="dropdownButton">
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                           </li>
+                          </ul>
+                      </div>
+                      <!-----------drop3-------> 
+                      <button id="dropdownButton" data-dropdown-toggle="dropdown" class="text-black bg-white mr-3 font-semibold hover:text-btnHover  hover:border-btnBorder ease-in-out duration-200 h-[37px] border border-bord rounded-sm text-sm px-3 py-2.5 text-center inline-flex items-center" type="button">Location <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
+                      <div id="dropdown" class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
+                         <ul class="py-1" aria-labelledby="dropdownButton">
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                           </li>
+                          </ul>
+                      </div>
+                      <!-----------drop4-------> 
+                      <button id="dropdownButton" data-dropdown-toggle="dropdown" class="text-black bg-white mr-3 h-[37px] border hover:text-btnHover  hover:border-btnBorder ease-in-out duration-200 border-bord  font-semibold rounded-sm text-sm px-3 py-2.5 text-center inline-flex items-center" type="button">Role <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
+                      <div id="dropdown" class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
+                         <ul class="py-1" aria-labelledby="dropdownButton">
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                           </li>
+                          </ul>
+                      </div>
+                      <!-----------drop5-------> 
+                      <button id="dropdownButton" data-dropdown-toggle="dropdown" class="text-black bg-white mr-3 h-[37px] border hover:text-btnHover  hover:border-btnBorder ease-in-out duration-200 border-bord font-semibold rounded-sm text-sm px-3 py-2.5 text-center inline-flex items-center" type="button">Tags <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
+                      <div id="dropdown" class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
+                         <ul class="py-1" aria-labelledby="dropdownButton">
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                           </li>
+                          </ul>
+                      </div>
+                      <!-----------drop6-------> 
+                      <button id="dropdownButton" data-dropdown-toggle="dropdown" class="text-black h-[37px] mr-3 bg-white border hover:text-btnHover  hover:border-btnBorder ease-in-out duration-200 border-bord    font-semibold rounded-sm text-sm px-3 py-2.5 text-center inline-flex items-center" type="button">Status <i class="fa-solid fa-angle-down text-arrDown ml-4"></i></button>
+                      <div id="dropdown" class="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
+                         <ul class="py-1" aria-labelledby="dropdownButton">
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+                           </li>
+                           <li>
+                             <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                           </li>
+                          </ul>
                       </div>
                     </div>
                   </div>
-                  <div class="tab-pane hidden fade" id="v-pills-members" role="tabpanel" aria-labelledby="v-pills-members-tab">
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+               </div>
+             </div>
+           </div>
+         </div>
         <div>
           <p>Messages</p>
         </div>
     </div>
-  </div>  
+   </div> 
+  </div> 
 </template>
 
 <script>

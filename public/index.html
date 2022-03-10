@@ -67,7 +67,8 @@
                             lightB:'#e5e7eb',
                             grn:'#6ec87c',
                             lb:'#d0ecff',
-                            latest:'#8e9caf'
+                            latest:'#8e9caf',
+                            arrDown:'#9ca3af'
                         },
                     },
                     boxShadow:{
@@ -94,6 +95,9 @@
                 $(".togg-sidebar").click(() => {
                     $(".sidebar").toggle(100);
                 });
+                $(".d-btn").click((e)=>{
+                    $(".b-body").toggleClass('shw');
+                })
             });
            
         </script>
